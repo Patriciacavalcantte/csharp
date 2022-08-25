@@ -1,0 +1,5 @@
+D:\Back\Calculator\obj\Debug\net5.0\Calculator.csproj.AssemblyReference.cache
+D:\Back\Calculator\obj\Debug\net5.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Back\Calculator\obj\Debug\net5.0\Calculator.AssemblyInfoInputs.cache
+D:\Back\Calculator\obj\Debug\net5.0\Calculator.AssemblyInfo.cs
+D:\Back\Calculator\obj\Debug\net5.0\Calculator.csproj.CoreCompileInputs.cache
