@@ -5,16 +5,16 @@
         static void Main(string[] args)
     {
  
-      Subtracao();
+      Multiplicacao();
     }
       static void Soma()
     {
       Console.Clear();
 
       Console.WriteLine("Primeiro valor: ");
-      float v1 = float.Parse(Console.ReadLine());
+      float v1 = float.Parse(Console.ReadLine()); //converte string em outro tipo 
 
-      Console.WriteLine("Segundo valor:");
+      Console.WriteLine("Segundo valor: ");
       float v2 = float.Parse(Console.ReadLine());
 
       Console.WriteLine("");
@@ -30,15 +30,46 @@
 
       Console.WriteLine("Primeiro valor:");
       float v1 = float.Parse(Console.ReadLine());
-      
+
        Console.WriteLine("Segundo valor:");
       float v2 = float.Parse(Console.ReadLine());
 
       Console.WriteLine("");
 
       float resultado = v1 - v2;
-      Console.WriteLine($"O resultado da subtração é  {resultado}");
+      Console.WriteLine($"O resultado da subtração é  {resultado}"); //interpolação
       Console.ReadKey(); //para n sair da tela
     }
+      static void Divisao(){
+        Console.Clear();
+
+        Console.WriteLine("Primeiro valor: ");
+        float v1 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Segundo valor");
+      float v2 = float.Parse(Console.ReadLine());
+
+      Console.WriteLine("");
+      float resultado = v1 / v2;
+      Console.WriteLine($"O resultado da divisão é {resultado}");
+      Console.ReadKey(); 
+
+
+    }
+      static void Multiplicacao (){
+      Console.Clear();
+      Console.WriteLine("Primeiro valor: ");
+      float v1 = float.Parse(Console.ReadLine());
+
+      Console.WriteLine("Segundo valor: ");
+      float v2 = float.Parse(Console.ReadLine());
+
+      Console.WriteLine("");
+
+      float resultado = v1 * v2;
+      Console.WriteLine("O resultado da multiplicação é " + (v1 * v2));
+      Console.ReadKey();
+    }
   }
+
 }
